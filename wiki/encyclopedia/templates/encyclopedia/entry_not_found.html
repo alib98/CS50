@@ -1,0 +1,16 @@
+{% extends "encyclopedia/layout.html" %}
+{% load static %}
+
+{% block title %}Page Not Found{% endblock title %}
+
+{% block statico  %}
+<link href="{% static 'encyclopedia/style_entry_not_found.css' %}" rel="stylesheet">
+{% endblock statico %}
+
+{% block body %}
+<div class="error-container">
+    <h1 class="error-title">404 - Page Not Found</h1>
+    <p class="error-message">the requested page could not be found.</p>
+</div>
+{% endblock body %}
+

@@ -1,0 +1,12 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}search{% endblock title %}
+
+{% block body %}
+<h1>Search Reults</h1>
+<ul>
+    {% for anchor_link, highlited_string in combined_data %}
+    <li><a href="{% url 'entry' anchor_link %}">{{ highlited_string|safe }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock body %}

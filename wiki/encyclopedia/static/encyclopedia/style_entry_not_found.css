@@ -1,0 +1,16 @@
+.error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.error-title {
+    color: #d9534f;
+}
+
+.error-message {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
