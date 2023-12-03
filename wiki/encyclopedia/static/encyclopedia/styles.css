@@ -25,6 +25,16 @@ textarea {
     width: 100%;
     font-size: 15px;
     line-height: 15px;
+    display: float;
+}
+
+.search button {
+    width: auto;
+}
+
+.search input { 
+    max-width: 100%;
+    width: auto;
 }
 
 .sidebar {
